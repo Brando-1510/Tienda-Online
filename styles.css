@@ -244,9 +244,11 @@ img{
   margin-bottom:14px;
 }
 
-.precio {
-  color: var(--boton);
+.tarjeta-variante .precio{
+  color: var(--principal);
+  font-size: 1.2rem;
 }
+
 
 .seccion-estrella{
   padding:20px 0 72px;
