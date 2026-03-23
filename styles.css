@@ -175,9 +175,10 @@ img{
   background:rgba(8, 10, 11, .74);
   backdrop-filter: blur(16px);
   display:flex;
-  align-items:center;
+  align-items:flex-start;
   justify-content:center;
   padding:24px;
+  overflow-y:auto;
   opacity:0;
   pointer-events:none;
   transition:opacity var(--transicion);
